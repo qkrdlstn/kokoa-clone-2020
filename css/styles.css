@@ -1,13 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Sono:wght@400;500&display=swap");
 @import "reset.css";
-@import "components/status-bar.css";
-
-/* components */
 @import "var.css";
-@import "screens/login.css";
-
+/* components */
+@import "components/screen-header.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/dot.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
 /*screens*/
-
+@import "screens/friends.css";
+@import "screens/login.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 body {
-  font-family: "Sono", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #2e363e;
+}
+* {
+  box-sizing: border-box;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+}
+.main-chat {
+  padding-top: 130px;
 }

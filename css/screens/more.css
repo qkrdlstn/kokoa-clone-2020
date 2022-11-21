@@ -1,0 +1,57 @@
+.more-screen__point {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 1px solid tomato;
+  text-align: center;
+  color: tomato;
+  font-weight: 900;
+  position: relative;
+  right: -7px;
+  top: 3.5px;
+}
+.more-screen__flex {
+  display: flex;
+  align-items: center;
+}
+.more-screen__icon {
+  color: #2e363e;
+}
+.more-screen .icon-row {
+  margin-top: 35px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 35px;
+}
+
+.more-suggestions {
+  margin-top: 40px;
+}
+
+.more-suggestions__header {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.more-suggestions__contents {
+  display: flex;
+}
+.more-suggestions__contents-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+.more-suggestions__contents-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.more-suggestions__contents-box > div {
+  opacity: 0.8;
+}
+
+.more-screen .icon-row div:nth-child(2) {
+  position: relative;
+}
